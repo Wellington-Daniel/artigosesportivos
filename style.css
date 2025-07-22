@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background: #FAFAFA;
+    display: grid;
+    justify-items: center;   
+}
+
+.logo {
+    max-width: 200px;
+    margin-top: 20px;
+    
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+         
+a {
+   display: inline-block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+  background: #6E6E6E;
+  padding: 15px;
+   margin: 15px;
+  border-radius: 6px;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+a:hover {
+  color: #25D366;
+  transform: translateY(-3px); 
+}
+
+.publicidade {
+    background: #E4DEDE;
+    padding: 40px;
+    color: #2C2C2C;
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;     
+    border-radius: 5px;   
+}
+
+.chuteira-publicidade {
+   float: left;
+   width: 250px;
+   padding: 60px;
+   height: auto;
+}
+
+.texto-publicidade {
+    max-width: 600px;
+}
+
+.texto-publicidade h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.texto-publicidade p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+ .publicidade2 {
+    text-align: center;
+    line-height: 10px;
+    margin-top: 20px;
+ }
+
+ .galeria {
+  display: flex;
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+}
+
+.item {
+  text-align: center;
+  max-width: 380px;
+}
+
+.chuteiras {
+  width: 270px;         
+  height: 270px;          
+  border-radius: 4px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+}
+span {
+  font-weight: bold;
+}
+
+.luvas {
+  width: 300px;         
+  height: 350px;          
+  border-radius: 4px;
+}
+
+.galeria2 {
+  display: flex;
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+}
+
+.luva {
+  text-align: center;
+  max-width: 380px;
+}
+
+.rodape {
+  width: 100%;
+  max-width: 100%;
+  background-color: #000;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.redes-sociais {
+  margin-bottom: 10px;
+}
+
+.redes-sociais a {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.redes-sociais a:hover {
+  transform: scale(1.2);
+  color: #25D366; /* destaque no hover */
+}
+
+form {
+  background: #E4DEDE;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  font-family: Arial, sans-serif;
+  margin: 40px auto;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"]
+ {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #6E6E6E;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #25D366;
+}
+
+.publicidade3 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app {
+  border-radius: 5px;
+  background: #E4DEDE;
+  padding: 20px;
+  height: 340px;
+  margin-top: 40px;
+  display: flex;
+
+}
+
+.celularapp {
+  width: 150px;         
+  height: 240px;
+}
+
+.textoapp {
+  font-size: 20px;
+  margin-bottom: 16px;
+  max-width: 300px;
+  
+}
+
+.textoapp h2 {
+  margin-bottom: 16px;
+}
+
+.textoapp a {
+  line-height: 1.6;
+}
+
+.plataforma {
+  font-size: 15px;
+}
+
+
+
